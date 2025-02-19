@@ -1,0 +1,57 @@
+# Ignore SFML folder (local library files)
+SFML-3.0.0/
+
+# Ignore build directories (for CMake and Visual Studio)
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+cmake_install.cmake
+Makefile
+
+# Ignore Visual Studio files
+.vscode/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.obj
+*.pdb
+*.idb
+*.ipch
+*.ilk
+*.tlog
+*.lastbuildstate
+*.log
+*.sdf
+*.db
+*.opensdf
+
+# Ignore Visual Studio build folders
+x64/
+x86/
+Debug/
+Release/
+
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+*.a
+*.lib
+*.dll
+*.so
+
+# Ignore SFML runtime files
+bin/
+lib/
+
+# Ignore temporary files
+*.tmp
+*.cache
+*.swp
+*.DS_Store
+
+# Ignore user-specific settings
+*.user
+*.log
+*.vs/
